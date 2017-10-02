@@ -7,7 +7,7 @@ h3 {
   margin: 0 0 10px;
 }
 
-p {
+p { 
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
 }
@@ -34,9 +34,7 @@ figcaption {
 
 .border-right {
   border-right: 1px dotted #ccc;
-  padding-right: 30px;
 }
-
 
 
 /*////////// BACKGROUNDS //////////*/
@@ -81,17 +79,17 @@ img, video, audio, iframe, table, form {
 .col-1 {
   float: left;
   width: 32%;
-
+  background: #ccc;
 }
 
 .col-2 {
   float: left;
   width: 66%;
-
+  background: #ccc;
 }
 
 .col-3 {
-
+  background: #ccc;
 }
 
 [class*="col-"] {
@@ -170,3 +168,5 @@ section {
 }
 
 /*////////// FOOTER //////////*/
+
+
